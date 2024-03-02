@@ -1,8 +1,11 @@
-# React + Vite
+# React Learning
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## English
 
-Currently, two official plugins are available:
+Learning React through several small projects.
+Building an app for a cabin hotel company.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Français
+
+Apprentissage de React à travers plusieurs petits projets.
+Création d'une app pour un hotel de chatel.
