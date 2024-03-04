@@ -10,7 +10,7 @@ import { useCreateCabin } from "./useCreateCabin";
 import { useEditCabin } from "./useEditCabin";
 
 
-function CreateCabinForm({ cabinToEdit = {} }) {
+function CreateCabinForm({ cabinToEdit = {}, onCloseModal }) {
   const {
     id: editId,
     ...editValues
@@ -30,14 +30,14 @@ function CreateCabinForm({ cabinToEdit = {} }) {
 
   const { errors } = formState;
 
-  const { 
-    isCreating, 
-    createCabin 
+  const {
+    isCreating,
+    createCabin
   } = useCreateCabin();
 
-  const { 
-    isEditing, 
-    editCabin 
+  const {
+    isEditing,
+    editCabin
   } = useEditCabin();
 
   const isWorking = isCreating || isEditing;
@@ -45,8 +45,25 @@ function CreateCabinForm({ cabinToEdit = {} }) {
   function onSubmit(data) {
     const image = typeof data.image === "string" ? data.image : data.image[0];
 
-    if (isEditSession) editCabin({ newCabinData: {...data, image}, id: editId }, { onSuccess: () => reset() });
-    else createCabin({...data, image: image }, { onSuccess: () => reset() });
+    if (isEditSession) editCabin(
+      { newCabinData: { ...data, image }, id: editId },
+      {
+        onSuccess: (data) => {
+          reset();
+          onCloseModal?.();
+        }
+      }
+    );
+
+    else createCabin(
+      { ...data, image: image },
+      {
+        onSuccess: (data) => {
+          reset();
+          onCloseModal?.();
+        }
+      }
+    );
   }
 
   function onError(errors) {
@@ -54,7 +71,10 @@ function CreateCabinForm({ cabinToEdit = {} }) {
   }
 
   return (
-    <Form onSubmit={handleSubmit(onSubmit, onError)}>
+    <Form
+      onSubmit={handleSubmit(onSubmit, onError)}
+      type={onCloseModal ? "modal" : "regular"}
+    >
       <FormRow label="Cabin name" error={errors?.name?.message}>
         <Input
           type="text"
@@ -123,18 +143,21 @@ function CreateCabinForm({ cabinToEdit = {} }) {
       </FormRow>
 
       <FormRow label="Cabin photo">
-        <FileInput 
-          id="image" 
+        <FileInput
+          id="image"
           accept="image/*"
           {...register("image", {
             required: isEditSession ? false : "This field is required"
-          })} 
+          })}
         />
       </FormRow>
 
       <FormRow>
         {/* type is an HTML attribute! */}
-        <Button variation="secondary" type="reset">
+        <Button
+          variation="secondary"
+          type="reset"
+          onClick={() => onCloseModal?.()}>
           Cancel
         </Button>
         <Button disabled={isCreating}>{isEditSession ? "Edit cabin" : "Create new cabin"}</Button>
