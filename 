@@ -1,0 +1,167 @@
+[33mcommit dfaa856bc73a6a80cb9c16e27718cf95b5a52150[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Tue Mar 5 12:07:17 2024 +0100
+
+    refactor: applying the render props pattern
+
+[33mcommit fbcdd06b43561ed103976936ae69772a7127a8d7[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Tue Mar 5 00:59:42 2024 +0100
+
+    feat: confirming cabin deletion
+
+[33mcommit b8a2fd3b3584f3f652eb8cbdd6ae30bf0110774c[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Tue Mar 5 00:43:29 2024 +0100
+
+    feat: detecting a click outside the modal
+
+[33mcommit 57bed32d4a0811da9b65acf950f1b650f39344ce[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Mon Mar 4 21:41:21 2024 +0100
+
+    refactor: converting the modal to a compound component
+
+[33mcommit 85faa2afca1b0861bba012db8bd735c5c4544834[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Mon Mar 4 20:30:07 2024 +0100
+
+    feat: building a modal window using a React Portal
+
+[33mcommit 8d920742ea50bfd9008b3b97912c200425f87e65[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Mon Mar 4 13:56:03 2024 +0100
+
+    feat: updating application settings
+
+[33mcommit a7d75391a6ea90e4ba47173598c2afd9c143ffa8[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Mon Mar 4 13:41:28 2024 +0100
+
+    feat: fetching application settings
+
+[33mcommit 8c429766383ed136b60c723e71aa98edfb62a767[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Mon Mar 4 12:50:41 2024 +0100
+
+    feat: duplicate cabins
+
+[33mcommit ca2e6c149b806328ee3d169a0378d5c8f99d0be0[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Mon Mar 4 00:48:05 2024 +0100
+
+    refactor: abstracting React Query into custom hooks
+
+[33mcommit b2395140f0e3bf3696dab1b6b0e8557eaa81d365[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 23:48:55 2024 +0100
+
+    feat: edit a cabin
+
+[33mcommit 2a2c446932fb008e27d355ea6161dc89ce2856cf[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 22:56:08 2024 +0100
+
+    feat: upload an image om supabase
+
+[33mcommit e1476fc8181b3e3877f7cfd06f6a521ab9e4ac06[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 22:22:02 2024 +0100
+
+    feat: handling form errors
+
+[33mcommit dcefee7c945900038fbed4005715d4a15adc2759[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 20:04:55 2024 +0100
+
+    feat: creating a new Cabin
+
+[33mcommit 2a3fa675bd8d81049ac2de883182b9c45b77d7bb[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 19:42:45 2024 +0100
+
+    learning: introduction to React Hook Form
+
+[33mcommit 0af3bb2399be170a5f9d4b49dff2abbc09d4b75e[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 18:53:56 2024 +0100
+
+    feat: displaying toasts
+
+[33mcommit 2afd97962a72a9655a754830e6c40ffce1a1c68e[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 18:27:10 2024 +0100
+
+    feat: deleting a cabin
+
+[33mcommit cb3db09e17d15ec1ed89158be469e4b3e51c389d[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 16:14:53 2024 +0100
+
+    build: fetching cabin data
+
+[33mcommit efa742a990db5aba0933f31134fa67e98ad987b5[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 15:34:01 2024 +0100
+
+    build: installing React Query and React Query devtools
+
+[33mcommit ee1d9a04d541a42d3b2d54a4098ffd72bb80961b[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 14:13:05 2024 +0100
+
+    learning: setting up Supabase
+
+[33mcommit 4df01c9c78027baf070d3d63fa43718f06802726[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sun Mar 3 01:32:07 2024 +0100
+
+    learning: building the sidebar and main navigation
+
+[33mcommit 3cda6096381e2c26fd1d9117a13497f34c3f62bb[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sat Mar 2 20:54:15 2024 +0100
+
+    learning: building the app layout
+
+[33mcommit c8ca7e4448e17492ebbfd7a87fea3a625da2d15d[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sat Mar 2 19:27:13 2024 +0100
+
+    learning: setting up pages and routes
+
+[33mcommit f85c6d56b2b1844c9727c7115bad90d290f5c246[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sat Mar 2 19:15:06 2024 +0100
+
+    learning: building more reusable styled components
+
+[33mcommit 27ef963518001929885407573b2152076f127883[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sat Mar 2 16:12:15 2024 +0100
+
+    learning: styled component props and css function
+
+[33mcommit 674dd3e695589215dd82546ce6b5b5445ca823b1[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sat Mar 2 15:57:23 2024 +0100
+
+    learning: global styles with styled components
+
+[33mcommit fc4ebcda56688d09973c35865f629005bb5712c3[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sat Mar 2 15:30:34 2024 +0100
+
+    learning: introduction to styled components
+
+[33mcommit 824b6244195a251796c3c9b8f5e8d6c1da1a6aa4[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sat Mar 2 15:02:25 2024 +0100
+
+    build: starter files
+
+[33mcommit 65da8452855a47c0cbbdec3bd7791ce9501f5ca0[m
+Author: NicolasSokolowski <sokolowski.nicolas@gmail.com>
+Date:   Sat Mar 2 14:56:06 2024 +0100
+
+    build: eslint
